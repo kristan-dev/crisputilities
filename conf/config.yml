@@ -1,0 +1,44 @@
+databases:
+  registry:
+    # host: 'db'
+    # database: 'postgres'
+    # port: 5432
+    # user: 'postgres'
+    # password: 'secret'
+    # host: 'localhost'
+    # database: 'postgres'
+    # port: 20040
+    # user: 'postgres'
+    # password: 'secret'
+    host: 'some-db-in-aws.cluster-cthuf8jivmfw.us-east-1.rds.amazonaws.com'
+    database: 'registry'
+    port: 5432
+    user: 'registry_master'
+    password: 'yWyaA7+tV>MgibwCNXvX667h'
+
+aws:
+  bbr:
+    access_key_id: 'SOMEACCESSKEYID'
+    secret_access_key: 'SOMESCRETKEY'
+  
+  oseberg:
+    access_key_id: 'SOMEACCESSKEYID'
+    secret_access_key: 'SOMESCRETKEY'
+
+elasticsearch:
+  host: 'http://localhost:3008'
+
+di:
+  api_key: '9649bcb4874dc1e36c4748416a96a159'
+  client_id: '17839-direct-access'
+  client_secret: 'b6a3ab2e-ed12-44b5-8006-4b3439e72e7d'
+
+google:
+  api_key: 'some-google-maps-api-key'
+
+linker:
+  org-kb-backup-location: ''
+  per-kb-backup-location: ''
+
+pipedrive:
+  api_key: 'some-pipedrive-api-key'
